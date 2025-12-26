@@ -33,7 +33,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background-color: #E6EDE6;
+    background-color: #000000;
 }
 
 .logo img {
@@ -50,12 +50,12 @@ nav ul {
 nav a {
     font-weight: 900;
     font-size: 24px;
-    color: #6E8B71;
+    color: #F6CE03;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #3d5a4c;
+    color: #767676;
 }
 
 /* Hero Section */
@@ -64,37 +64,37 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     padding: 0px 60px;
-    background-color: #f5f3ed;
+    background-color: #000000;
     position: relative;
 }
 
 .hero img {
-    max-width: 886px;
-    width: 100%;
+    width: 392px;
+    height: 562px;
 }
 
 .hero-text {
     position: absolute;
-    right: 25%;
+    right: 20%;
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
     font-weight: 900;
-    color: #384538;
+    color: #b8b8b8;
     line-height: 1;
 }
 
 /* About Section */
 .about {
     padding: 80px 60px;
-    background-color: #f5f3ed;
+    background-color: #000000;
 }
 
 .about h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 30px;
-    color: #384538;
+    color: #F6CE03;
     font-weight: 700;
 }
 
@@ -109,7 +109,7 @@ nav a:hover {
 
 .about-details {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns:repeat(, 1fr);
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -146,20 +146,20 @@ nav a:hover {
     content: "•";
     position: absolute;
     left: 0;
-    color: #3d5a4c;
+    color: #F6CE034c;
 }
 
 /* Project Section */
 .project {
     padding: 80px 60px;
-    background-color: #f5f3ed;
+    background-color: #000000;
 }
 
 .project h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 60px;
-    color: #384538;
+    color:#F6CE03;
     font-weight: 700;
 }
 
@@ -200,14 +200,14 @@ nav a:hover {
 /* Contact Section */
 .contact {
     padding: 80px 60px;
-    background-color: #f5f3ed;
+    background-color: #000000;
 }
 
 .contact h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 30px;
-    color: #384538;
+    color: #F6CE03;
     font-weight: 700;
     
 }
@@ -243,6 +243,13 @@ nav a:hover {
     position: relative;
 }
 
+.contact-item li button{
+    font-size: 14px;
+    color: #666;
+    position: center;
+    padding: 3px 10px 3px 10px;
+}
+
 .contact-item li::before {
     content: "•";
     position: absolute;
@@ -261,7 +268,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-    background-color: #3d5a4c;
+    background-color: #000000;
     color: rgba(255, 255, 255, 0.6);
     text-align: left;
     padding: 30px 60px;
