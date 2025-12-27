@@ -33,7 +33,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background-color: #A3917B;
+    background-color:#F3EEEA;
 }
 
 .logo img {
@@ -49,12 +49,12 @@ nav ul {
 nav a {
     font-weight: 900;
     font-size: 24px;
-    color: #7F6B53;
+    color:#7F6B53;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #F3EEEA;
+    color: #DAD0C6;
 }
 
 /* Hero Section */
@@ -108,7 +108,7 @@ nav a:hover {
     display: grid;
     grid-template-columns:repeat(, 1fr);
     gap: 30px;
-    max-width: 1200px;
+    max-width : 1200px;
     margin: 0 auto;
 }
 
